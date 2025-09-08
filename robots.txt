@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /Formatted code/
+Disallow: /src/
+
+Sitemap: https://abhinavbathula.com/sitemap.xml

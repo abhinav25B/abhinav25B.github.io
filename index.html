@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+  ====================================================================
+  PORTFOLIO TEMPLATE CREDITS
+  ====================================================================
+  Original template created by: Vinod Jangid
+  Customized by: Abhinav Bathula
+  
+  This portfolio has been customized to showcase Abhinav Bathula's 
+  professional experience and skills as an Oracle Cloud Technical Consultant.
+  ====================================================================
+-->
+
+<!-- 
+  ====================================
+  ========== HEAD SECTION =============
+  ====================================
+  Contains meta information, stylesheets, and non-visible elements.
+  Defines metadata for search engines, social media, and browser behavior.
+-->
+<head>
+  <meta name="google-site-verification" content="" />
+
+  <!-- Character Encoding and Browser Compatibility -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO and Browser Settings -->
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000" />
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Abhinav Bathula | Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions." />
+  <meta name="author" content="Abhinav Bathula" />
+  
+  <!-- Keywords for Search Engines -->
+  <meta name="keywords" content="abhinav bathula, abhinav bathula portfolio, oracle cloud consultant, erp consultant, oracle cloud erp, abhinav bathula hyderabad, oracle technical consultant" />
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://abhinavbathula.site" />
+  <meta property="og:title" content="Abhinav Bathula | Oracle Cloud Technical Consultant" />
+  <meta property="og:description" content="Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions, Financials, and SCM modules." />
+  <meta property="og:image" content="https://abhinavbathula.site/src/png/Preview-card-min.png" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@YourTwitterHandle" />
+  <meta name="twitter:title" content="Abhinav Bathula | Oracle Cloud Technical Consultant" />
+  <meta name="twitter:description" content="Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions." />
+  <meta name="twitter:image" content="https://abhinavbathula.site/src/png/Preview-card-min.png" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+  <title>Abhinav Bathula | Oracle Cloud Technical Consultant</title>
+  
+  <!-- External CSS Libraries -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps&display=swap" rel="stylesheet">
+
+  <!-- 
+    ===================================
+    ====== BODY SECTION STARTS HERE =====
+    ====================================
+    
+    The body contains all the visible content of the webpage.
+    It's structured into several main sections:
+    1. Header with navigation
+    2. Main content (Home, About, Skills, Projects)
+    3. Footer with contact information
+  -->
+
+<body class="body">
+  <!-- Background Audio Element (initially hidden) -->
+  <!-- This audio element plays background music and is controlled by the sound toggle in the UI -->
+  <audio loop="" id="audioPlayer" style="display: none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+  <!-- Preloader: Shows while the page is loading -->
+  <div id="preloader"></div>
+  
+  <!-- NoScript Fallback -->
+  <noscript>
+    <div class="noscript-warning">
+      <p>This website requires JavaScript to function properly. Please enable JavaScript in your browser for the best experience.</p>
+    </div>
+  </noscript>
+
+  <!-- 
+    ===================================
+    ========== HEADER SECTION ==========
+    ===================================
+    The header contains the main navigation and logo.
+    It's fixed at the top of the page for easy access.
+  -->
+  <header>
+    <!-- Custom Cursor Elements -->
+    <!-- These divs create a custom cursor effect that follows the mouse -->
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <!-- Main Navigation Bar -->
+    <div class="navbar" id="navbar">
+      <!-- Greeting Text -->
+      <div class="hey">Hey!</div>
+      
+      <!-- Logo Container -->
+      <div class="logo" tabindex="0" aria-label="Abhinav Bathula logo">
+        <div class="logo-top">
+          <!-- Profile Avatar/Logo -->
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
+        </div>
+      </div>
+      <!-- Navigation Tabs -->
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <!-- Home Tab -->
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              &#60;/Home&#62;
+            </a>
+          </li>
+
+          <!-- About Me Tab -->
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="about menu button">
+              &#60;/AboutMe&#62;
+            </a>
+          </li>
+
+          <!-- Skills Tab -->
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              &#60;/Skills&#62;
+            </a>
+          </li>
+
+          <!-- Projects Tab -->
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="projects menu button">
+              &#60;/Projects&#62;
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- 
+    ===================================
+    ========== MAIN CONTENT ============
+    ===================================
+    The main content area contains all the page sections.
+    It's structured to be accessible and responsive.
+  -->
+  <main>
+    <!-- Mobile Hamburger Menu -->
+    <!-- This is only visible on mobile devices and toggles the mobile menu -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <!-- Animated hamburger icon bars -->
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <!-- Mobile Menu (Hidden by default, toggled by hamburger) -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <!-- Mobile Home Tab -->
+        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            &#60;/Home&#62;
+          </a>
+        </li>
+
+        <!-- Mobile About Me Tab -->
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            &#60;/AboutMe&#62;
+          </a>
+        </li>
+        
+        <!-- Mobile Skills Tab -->
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            &#60;/Skills&#62;
+          </a>
+        </li>
+        
+        <!-- Mobile Projects Tab -->
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            &#60;/Projects&#62;
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- 
+      ===================================
+      ========== HERO SECTION ============
+      ===================================
+      The hero section is the first thing users see.
+      It includes a greeting, name, and a brief introduction.
+    -->
+    <section class="landing-page-container" id="home">
+      <!-- Animated background blob -->
+      <div class="blob"></div>
+
+      <!-- Main Content Container -->
+      <div class="text-content">
+        <!-- Animated Greeting Text -->
+        <!-- Each letter is in a separate span for individual animation -->
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">N</p>
+          <p class="jello">a</p>
+          <p class="jello">m</p>
+          <p class="jello">a</p>
+          <p class="jello">s</p>
+          <p class="jello">t</p>
+          <p class="jello">e</p>
+          <p class="jello">(</p>
+          <p class="jello">)</p>
+          <p class="jello">;</p>
+          &nbsp;
+          <p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+        <!-- Animated Name -->
+        <!-- Each letter is in a separate span for individual animation -->
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">A</p>
+          <p class="jello">b</p>
+          <p class="jello">h</p>
+          <p class="jello">i</p>
+          <p class="jello">n</p>
+          <p class="jello">a</p>
+          <p class="jello">v</p>
+          &nbsp;
+          <p class="jello">B</p>
+          <p class="jello">a</p>
+          <p class="jello">t</p>
+          <p class="jello">h</p>
+          <p class="jello">u</p>
+          <p class="jello">l</p>
+          <p class="jello">a</p>
+          <p class="jello">.</p>
+        </article>
+
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <div>
+            <p class="jello">I</p>
+          </div>
+          <div>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+            <p class="jello">s</p>
+            <p class="jello">i</p>
+            <p class="jello">g</p>
+            <p class="jello">n</p>
+          </div>
+          <div>
+            <p class="jello">&</p>
+          </div>
+          <div>
+            <p class="jello">c</p>
+            <p class="jello">o</p>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+          </div>
+          <div>
+            <p class="jello">f</p>
+            <p class="jello">o</p>
+            <p class="jello">r</p>
+          </div>
+          <div>
+            <p class="jello">O</p>
+            <p class="jello">r</p>
+            <p class="jello">a</p>
+            <p class="jello">c</p>
+            <p class="jello">l</p>
+            <p class="jello">e</p>
+          </div>
+          <div>
+            <p class="jello">C</p>
+            <p class="jello">l</p>
+            <p class="jello">o</p>
+            <p class="jello">u</p>
+            <p class="jello">d</p>
+            <p class="jello">.</p>
+          </div>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations.
+          <br />
+          <br />
+          I specialize in Oracle Cloud solutions, with expertise in Financials, SCM, BIP reports and custom integrations.
+          I'm passionate about creating efficient, scalable solutions that drive business transformation.
+        </p>
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <a href="mailto:abhinavwa97@gmail.com" tabindex="-1">
+            <button class="letsTalkBtn">
+              <p class="letsTalkBtn-text">Let's Talk!</p>
+              <span class="letsTalkBtn-BG"></span>
+            </button></a>
+          <div class="setting-container" id="setting-container">
+            <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
+
+            <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
+              aria-label="settings for sound and appearance"></label>
+
+            <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+              <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
+              <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                aria-label="switch appearance"></label>
+            </div>
+
+            <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+              <input type="checkbox" id="switchforsound" onclick="playpause()" />
+              <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
+                class="needtobeinvert"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <!-- 
+      ===================================
+      ========== ABOUT SECTION ===========
+      ===================================
+      This section contains personal information and a brief bio.
+      It helps visitors understand who you are and what you do.
+    -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <!-- Section Heading -->
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            &#60;/AboutMe&#62;
+          </h2>
+          <p class="sectionHeadingP"></p> <!-- Empty paragraph for decorative purposes -->
+        </div>
+
+        <!-- About Content and Profile Picture -->
+        <div class="info-dp-section">
+          <!-- About Text Content -->
+          <div class="about-info">
+            <!-- First Paragraph -->
+            <p tabindex="0">
+              Hi! I'm Abhinav Bathula, an Oracle Cloud Technical Consultant with a passion for modernizing enterprise systems. I love helping businesses transition from legacy platforms to scalable, cloud-native solutions that drive growth and operational agility.
+            </p>
+            <br />
+            
+            <!-- Second Paragraph -->
+            <p tabindex="0">
+              With over four years of experience, my work centers on end-to-end Oracle Cloud ERP implementations across Financials and SCM modules. I specialize in designing technical solutions, developing custom BI Publisher and OTBI reports, and executing complex data migrations using tools like FBDI and SQL. For me, it's about transforming complex business requirements into high-performance, tailored solutions that empower organizations.
+            </p>
+            <br />
+            
+            <!-- Third Paragraph -->
+            <p tabindex="0">
+              When I'm not deep in an implementation, you'll find me exploring ways to tune query performance and discovering new methods to solve challenges within the Oracle Cloud ecosystem.
+            </p>
+             <!-- Resume Download Button -->
+            <!-- This button triggers the openURL() function to download the resume PDF -->
+            <button class="resume-btn" id="resume-btn" onclick="openURL()" aria-label="Download Resume">
+              <!-- Download Icon -->
+              <div class="sign">
+                <svg viewBox="0 0 640 512" aria-hidden="true">
+                  <path
+                    d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                </svg>
+              </div>
+
+              <!-- Button Text -->
+              <div class="text">Resume</div>
+            </button>
+          </div>
+
+          <!-- Profile Picture -->
+          <div class="dp" data-aos="fade-up">
+            <!-- Professional profile photo with accessibility attributes -->
+            <img 
+              src="src/webp/passport pic.webp" 
+              alt="Abhinav Bathula" 
+              tabindex="0" 
+              aria-label="Professional photo of Abhinav Bathula"
+              loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+      ===================================
+      ========== SKILLS SECTION ==========
+      ===================================
+      This section showcases technical skills and proficiencies.
+      Each skill is represented with an icon and has a tooltip on hover.
+    -->
+    <section class="skills-section-container" id="skills">
+      <div class="skills-section">
+        <!-- Section Heading -->
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
+            &#60;/Skills&#62;
+          </h2>
+          <p class="sectionHeadingP"></p> <!-- Decorative element -->
+        </div>
+
+        <!-- Skills Grid Container -->
+        <div class="frontend-dev-section">
+          <!-- Skills Section Heading -->
+          <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
+            aria-label="Technical skills and technologies I work with">
+            Tech Stack
+          </h3>
+          <!-- Skills Grid -->
+          <ul class="tech-stack-wrapper">
+            <!-- Individual Skill Item -->
+            <li class="tech-stack-box" data-aos="fade-up">
+              <!-- Skill Logo -->
+              <img 
+                src="./src/png/62bc7b13071dec17849af324.png" 
+                alt="Oracle Database" 
+                class="tech-stack-logo" 
+                loading="lazy" />
+              <!-- Tooltip that appears on hover -->
+              <span class="tooltip" role="tooltip">Oracle Database</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/Oracle-ERP-Cloud.png" alt="Oracle ERP Cloud skill" class="erpcloud-stack-logo" />
+              <span class="tooltip">Oracle ERP Cloud</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/sql_icon-1-removebg-preview.png" alt="SQL skill" class="tech-stack-logo" />
+              <span class="tooltip">SQL</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/pl-sql_icon-1-removebg-preview.png" alt="nodejs skill" PLSQL="tech-stack-logo" />
+              <span class="tooltip">PLSQL</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/database_icon-removebg-preview.png" alt="Database skill" class="tech-stack-logo" />
+              <span class="tooltip">Database</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/linux_icons-removebg-preview.png" alt="Linux skill" class="tech-stack-logo" />
+              <span class="tooltip">Linux</span>
+            </li>
+
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/Macos-Download-Free-PNG.png" alt="MacOS language skill" class="tech-stack-logo" />
+              <span class="tooltip">MacOS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/63c52af590250dd34bd6a9ab.png" alt="CHATGPT skill" class="tech-stack-logo" />
+              <span class="tooltip">ChatGPT</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/6516df6a5584c4a3ce8de9b4.png" alt="PERPLEXITY AI skill" class="tech-stack-logo" />
+              <span class="tooltip">Perplexity AI</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/66afd95719a3a73a2c337822.png" alt="Gemini skill" class="tech-stack-logo" />
+              <span class="tooltip">Gemini</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/66af99839e55f1ee29f117ac.png" alt="Claude skill" class="tech-stack-logo" />
+              <span class="tooltip">Claude</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/toad-for-oracle-software-removebg-preview.png" alt="TOAD skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">TOAD</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/sql_developer_datascientest-removebg-preview.png" alt="sql skill" class="tech-stack-logo" />
+              <span class="tooltip">SQL Developer</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/1748451884516-removebg-preview.png" alt="vibe skill" class="tech-stack-logo" />
+              <span class="tooltip">Vibe Coding</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 
+      ===================================
+      ========= PROJECTS SECTION =========
+      ===================================
+      This section showcases professional projects and work experience.
+      Each project is displayed in a card format with relevant details.
+    -->
+    <section class="projects-section-container" id="projects">
+      <div class="projects-section-div">
+        <!-- Section Heading -->
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            &#60;/Projects&#62;
+          </h2>
+          <p class="sectionHeadingP"></p> <!-- Decorative element -->
+        </div>
+        <!-- Projects Grid -->
+        <div class="project-boxes-div">
+          <!-- Project 1: Accenture -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <!-- Project Information -->
+              <div class="info-div">
+                <!-- Company Logo -->
+                <img 
+                  src="src/webp/123134.webp" 
+                  alt="Accenture logo" 
+                  class="faviconforProject" 
+                  loading="lazy" />
+                <!-- Project/Position Title -->
+                <article class="ProjectHeading">Accenture Senior Analyst</article>
+                <!-- Project/Position Description -->
+                <p class="ProjectDescription">
+                  Oracle Cloud ERP Senior Analyst at Accenture, specializing in Oracle Cloud implementation, configuration, and support. Expert in Oracle Financials and Supply Chain modules. Delivering end-to-end Oracle solutions, system integrations, and process optimizations to drive digital transformation and operational excellence for global enterprises.
+                </p>
+              </div>
+              <!-- Project Image/Preview -->
+              <div class="image-div">
+                <img 
+                  src="src/webp/wqe.webp" 
+                  alt="Project preview image" 
+                  loading="lazy" />
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Project 2: Infosys -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <!-- Project Information -->
+              <div class="info-div">
+                <!-- Company Logo -->
+                <img 
+                  src="src/ico/infy.png" 
+                  alt="Infosys logo" 
+                  class="faviconforProject" 
+                  loading="lazy" />
+                <!-- Project/Position Title -->
+                <article class="ProjectHeading">Infosys<br>Senior Systems Engineer</article>
+                
+                <!-- Project/Position Description -->
+                <p class="ProjectDescription">
+                  - Led Oracle Cloud ERP implementations and optimizations<br>
+                  - Specialized in Financials and Supply Chain modules<br>
+                  - Drove process improvements and system integrations<br>
+                  - Provided expert Oracle Cloud support and configuration<br>
+                  - Mentored junior team members
+                </p>
+              </div>
+              <div class="image-div">
+                <img src="src/webp/cummins.webp" alt="atomicasher website preview image" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
+            "The best way to predict the future is to implement it"
+          </article>
+        </div>
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>GetinTouch();</article>
+          </div>
+          <div class="logos">
+            <a href="https://www.linkedin.com/in/abhinav-bathula/" target="_blank"
+              aria-label="Connect on LinkedIn">
+              <svg class="SocialHandle" viewBox="0 0 448 512" width="24" height="24">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+              </svg>
+            </a>
+
+            <a href="mailto:abhinavwa97@gmail.com" target="_blank" aria-label="Email me">
+              <svg id="GmailLogo" viewBox="0 0 512 512" width="24" height="24">
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-avatar-container">
+          <img src="src/png/footer-avatar-vinod.png" alt="" class="footer-avatar-img" id="footer-wala-avatar"/>
+          <div class="footer-avatar-face">
+            <div class="footer-avatar-eye footer-left-eye">
+              <div class="footer-pupil"></div>
+            </div>
+            <div class="footer-avatar-eye footer-right-eye">
+              <div class="footer-pupil"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <article>
+              Built by Abhinav Bathula &copy; <span id="currentYear"></span> | Design inspired by Vinod Jangid
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript Libraries -->
+  <script src="main.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  
+  <!-- Initialize AOS and set current year -->
+  <script>
+    // Initialize AOS (Animate On Scroll)
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: 'ease-in-out'
+    });
+    
+    // Update copyright year dynamically
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    });
+    
+    // Function to open resume in new tab
+    function openURL() {
+      window.open("src/pdf/Abhinav_B_Resume_2025.pdf", "_blank");
+    }
+  </script>
+
+  <!-- Custom Cursor Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const cursorInner = document.getElementById("cursor-inner");
+      const cursorOuter = document.getElementById("cursor-outer");
+      const interactiveElements = document.querySelectorAll("a, button, [tabindex], label, [role='button']");
+      
+      // Only initialize custom cursor if elements exist
+      if (cursorInner && cursorOuter) {
+        // Update cursor position on mouse move
+        document.addEventListener("mousemove", (e) => {
+          const { clientX: posX, clientY: posY } = e;
+          
+          // Update cursor position
+          cursorInner.style.transform = `translate(${posX}px, ${posY}px)`;
+          
+          // Animate outer cursor with smooth transition
+          cursorOuter.animate(
+            { transform: `translate(${posX}px, ${posY}px)` },
+            { duration: 500, fill: "forwards" }
+          );
+        });
+        
+        // Add hover effects for interactive elements
+        interactiveElements.forEach(element => {
+          element.addEventListener('mouseenter', () => {
+            cursorInner.classList.add('hover');
+            cursorOuter.classList.add('hover');
+          });
+          
+          element.addEventListener('mouseleave', () => {
+            cursorInner.classList.remove('hover');
+            cursorOuter.classList.remove('hover');
+          });
+        });
+      }
+    });
+  </script>
+ </body>
+
+</html>
