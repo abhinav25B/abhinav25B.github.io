@@ -3,4 +3,4 @@ Allow: /
 Disallow: /Formatted code/
 Disallow: /src/
 
-Sitemap: https://abhinavbathula.com/sitemap.xml
+Sitemap: https://abhinav25b.github.io/sitemap.xml
