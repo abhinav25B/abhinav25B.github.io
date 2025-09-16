@@ -158,6 +158,13 @@
               &#60;/Projects&#62;
             </a>
           </li>
+          
+          <!-- Certifications Tab -->
+          <li class="certifications" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="900">
+            <a href="#certifications" aria-label="certifications menu button">
+              &#60;/Certifications&#62;
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -211,6 +218,13 @@
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
           <a href="#projects" tabindex="0" aria-label="projects menu button">
             &#60;/Projects&#62;
+          </a>
+        </li>
+        
+        <!-- Mobile Certifications Tab -->
+        <li id="certifications-mobile-tab" class="mobile-navbar-tabs-li certifications" onclick="hidemenubyli()">
+          <a href="#certifications" tabindex="0" aria-label="certifications menu button">
+            &#60;/Certifications&#62;
           </a>
         </li>
       </ul>
@@ -598,6 +612,80 @@
         </div>
       </div>
     </section>
+
+    <!-- 
+      ===================================
+      ======== CERTIFICATIONS SECTION =====
+      ===================================
+      This section showcases professional certifications.
+    -->
+    <section class="projects-section-container" id="certifications">
+      <div class="projects-section-div">
+        <!-- Section Heading -->
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My certifications start from here">
+            &#60;/Certifications&#62;
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <!-- Certifications Grid -->
+        <div class="project-boxes-div">
+          <!-- Certification 1 -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2">
+              <!-- Certification Image (moved above text) -->
+              <div class="image-div">
+                <img 
+                  src="src/png/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.png" 
+                  alt="Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1 certificate image" 
+                  loading="lazy" />
+              </div>
+              <!-- Certification Information -->
+              <div class="info-div">
+                <article class="ProjectHeading">
+                  Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1
+                </article>
+                <p class="ProjectDescription">
+                  Certification demonstrating foundational proficiency with Oracle Fusion AI Agent Studio.
+                </p>
+                <p class="ProjectDescription">
+                  Validates ability to design, evaluate and iterate AI agents responsibly using Fusion AI Agent Studio.
+                  Demonstrates hands‑on skills with prompt design, testing, and governance — directly applicable to
+                  building reliable, production-ready Oracle Cloud automations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certification 2: SCM Process Essentials -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2">
+              <!-- Certification Image on top -->
+              <div class="image-div">
+                <img 
+                  src="src/png/Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1.png" 
+                  alt="Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1 certificate image" 
+                  loading="lazy" />
+              </div>
+              <!-- Certification Information below -->
+              <div class="info-div">
+                <article class="ProjectHeading">
+                  Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1
+                </article>
+                <p class="ProjectDescription">
+                  Demonstrates core understanding of Supply Chain Management processes across Oracle Fusion Cloud Applications.
+                </p>
+                <p class="ProjectDescription">
+                  Highlights practical knowledge of end‑to‑end SCM flows, configurations and best practices — useful for
+                  implementing, optimizing and supporting Fusion SCM solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer id="footer">
     <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
@@ -659,12 +747,8 @@
   
   <!-- Initialize AOS and set current year -->
   <script>
-    // Initialize AOS (Animate On Scroll)
-    AOS.init({
-      duration: 800,
-      once: true,
-      easing: 'ease-in-out'
-    });
+    // Initialize AOS (Animate On Scroll) with defaults like the reference
+    AOS.init();
     
     // Update copyright year dynamically
     document.addEventListener('DOMContentLoaded', function() {

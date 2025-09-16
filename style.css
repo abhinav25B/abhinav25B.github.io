@@ -396,7 +396,7 @@ noscript {
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem
+    font-size: 1.3rem
 }
 
 .navbar-tabs-ul li:hover:before {
@@ -408,7 +408,8 @@ noscript {
 
 .navbar-tabs-ul a {
     color: var(--color-white);
-    font-weight: 100
+    font-weight: 100;
+    white-space: nowrap
 }
 
 .logo {
@@ -1216,6 +1217,118 @@ footer {
     border-top-left-radius: 30px
 }
 
+/* Certifications section sizing tweaks to fully show certificate image */
+#certifications .project-box {
+    height: 560px;
+    flex-direction: column; /* image on top, text below */
+    align-items: stretch;
+}
+
+/* Tighten spacing above Certifications to match other sections more closely */
+#certifications.projects-section-container {
+    padding-top: 40px; /* tightened further */
+}
+
+/* Align section correctly when navigated via anchor (fixed header offset) */
+#certifications {
+    scroll-margin-top: 130px; /* header ~115px + small buffer */
+}
+
+@media (max-width: 768px) {
+  #certifications {
+      scroll-margin-top: 90px; /* smaller header on mobile */
+  }
+}
+
+/* Apply same anchor offset for Home section */
+#home {
+    scroll-margin-top: 130px;
+}
+
+@media (max-width: 768px) {
+  #home {
+      scroll-margin-top: 90px;
+  }
+}
+
+/* Apply same anchor offset for About section */
+#about {
+    scroll-margin-top: 130px;
+}
+
+@media (max-width: 768px) {
+  #about {
+      scroll-margin-top: 90px;
+  }
+}
+
+/* Reduce bottom padding of Projects section to close gap before Certifications */
+#projects.projects-section-container {
+    padding-bottom: 60px; /* tightened further from 90px */
+}
+
+#certifications .project-boxes-div {
+    padding-top: 20px; /* was 50px via base rule */
+}
+
+#certifications .image-div {
+    padding: 20px 20px 0 20px;
+    width: 100%;
+    flex: 0 0 60%; /* 60% of card height */
+}
+
+#certifications .image-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+#certifications .info-div {
+    width: 100%;
+    flex: 0 0 40%; /* 40% of card height */
+    padding: 10px 24px 12px 24px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* avoid scrollbar; text must fit */
+}
+
+/* Reduce heading size inside certifications */
+#certifications .ProjectHeading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+/* Make description a little more legible with spacing */
+#certifications .ProjectDescription {
+    margin-top: 2px;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+#certifications .ProjectDescription:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  #certifications .project-box {
+      height: 520px;
+      flex-direction: column; /* keep stacked on mobile */
+  }
+  #certifications .image-div {
+      width: 100%;
+      flex: 0 0 60%;
+      padding: 10px 10px 0 10px;
+  }
+  #certifications .info-div {
+      width: 100%;
+      flex: 0 0 40%;
+      padding: 12px 16px 16px 16px;
+  }
+}
+
 .ProjectHeading {
     color: var(--color-white);
     font-size: 3.4rem;
@@ -2016,4 +2129,31 @@ footer {
         height: fit-content;
         margin-top: 100px;  
     }
+}
+
+.certifications-section-container {
+    padding: 50px 0 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+/* Certification image styling to fill entire box */
+#certification-box1 .image-div {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#certification-box1 .image-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    border-top-left-radius: 30px;
 }
