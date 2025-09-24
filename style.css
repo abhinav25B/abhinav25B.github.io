@@ -1507,7 +1507,7 @@ footer {
 .two-words article {
     font-size: 3rem;
     text-align: center;
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(1.5rem, 4vw, 3.5rem);
 }
 
 .social-media-container {
@@ -2084,7 +2084,7 @@ footer {
     .two-words article {
         font-size: 2rem;
         text-align: center;
-        font-size: clamp(1rem, 3vw, 2rem);
+        font-size: clamp(1.3rem, 3.5vw, 2.8rem);
     }
 
     .footer-bottom article {
@@ -2113,7 +2113,7 @@ footer {
     .two-words article {
         font-size: 1.5rem;
         text-align: center;
-        font-size: clamp(0.8rem, 2.5vw, 1.5rem);
+        font-size: clamp(1.1rem, 3vw, 2.2rem);
     }
 
     .footer-bottom article {
