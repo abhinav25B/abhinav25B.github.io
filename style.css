@@ -1505,7 +1505,8 @@ footer {
 }
 
 .two-words article {
-    font-size: 3rem
+    font-size: 3rem;
+    text-align: center;
 }
 
 .social-media-container {
@@ -2061,7 +2062,8 @@ footer {
     }
 
     .two-words article {
-        font-size: 2.2rem
+        font-size: 2.2rem;
+        text-align: center;
     }
 }
 
@@ -2079,7 +2081,8 @@ footer {
     }
 
     .two-words article {
-        font-size: 2rem
+        font-size: 2rem;
+        text-align: center;
     }
 
     .footer-bottom article {
@@ -2106,7 +2109,8 @@ footer {
     }
 
     .two-words article {
-        font-size: 1.5rem
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .footer-bottom article {
