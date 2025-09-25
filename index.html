@@ -792,12 +792,13 @@
         document.addEventListener("mousemove", (e) => {
           const { clientX: posX, clientY: posY } = e;
           
-          // Update cursor position
-          cursorInner.style.transform = `translate(${posX}px, ${posY}px)`;
+          // Update cursor position using left/top to preserve centering transform
+          cursorInner.style.left = `${posX}px`;
+          cursorInner.style.top = `${posY}px`;
           
           // Animate outer cursor with smooth transition
           cursorOuter.animate(
-            { transform: `translate(${posX}px, ${posY}px)` },
+            { left: `${posX}px`, top: `${posY}px` },
             { duration: 500, fill: "forwards" }
           );
         });
