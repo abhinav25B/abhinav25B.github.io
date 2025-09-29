@@ -871,10 +871,10 @@ noscript {
 .resume-btn {
     margin-top: 25px;
     justify-content: flex-start;
-    width: 45px;
+    width: 130px;
     height: 45px;
     border: none;
-    border-radius: 50%;
+    border-radius: 40px;
     cursor: pointer;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .199);
     background: linear-gradient(82.3deg, #965de9 10.8%, #6358ee 94.3%);
@@ -898,8 +898,9 @@ noscript {
 }
 
 .sign {
-    width: 100%;
-    justify-content: center
+    width: 30%;
+    justify-content: center;
+    padding-left: 20px
 }
 
 .sign svg {
@@ -908,31 +909,14 @@ noscript {
 
 .text {
     right: 0;
-    width: 0%;
-    opacity: 0;
+    width: 70%;
+    opacity: 1;
     font-size: 1em;
     font-weight: 600;
-    transition-duration: .3s
-}
-
-.resume-btn:hover {
-    width: 130px;
-    border-radius: 40px;
-    transition-duration: .3s
-}
-
-.resume-btn:hover .sign {
-    width: 30%;
-    transition-duration: .3s;
-    padding-left: 20px
-}
-
-.resume-btn:hover .text {
-    opacity: 1;
-    width: 70%;
-    transition-duration: .3s;
     padding-right: 10px
 }
+
+/* Removed hover animation - button is now static */
 
 .dp,
 .dp::after,
