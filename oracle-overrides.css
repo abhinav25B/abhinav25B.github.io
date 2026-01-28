@@ -1,0 +1,83 @@
+
+/* Oracle Project Card Custom Layout */
+.oracle-custom-layout {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.oracle-info-div {
+    width: auto;
+    padding: 0;
+    align-items: flex-end;
+    text-align: right;
+    flex: 1;
+}
+
+.oracle-title {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+.oracle-separator {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: #C74634;
+    padding-bottom: 5px;
+}
+
+.oracle-image-div {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    flex: 1;
+    padding-top: 0;
+}
+
+.oracle-logo-img {
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0 !important;
+}
+
+/* Mobile Responsive Adjustments for Oracle Card */
+@media screen and (max-width: 768px) {
+    .oracle-custom-layout {
+        flex-direction: column !important;
+        padding: 30px 10px;
+        gap: 20px;
+        height: auto !important; /* Allow height to grow */
+    }
+
+    .oracle-info-div {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        flex: 0 0 auto;
+    }
+
+    .oracle-title {
+        font-size: 1.2em; /* Slightly larger on mobile for readability */
+    }
+
+    .oracle-separator {
+        font-size: 2em;
+        margin: 10px 0;
+    }
+
+    .oracle-image-div {
+        width: 100%;
+        justify-content: center;
+        flex: 0 0 auto;
+    }
+
+    .oracle-logo-img {
+        width: 80%; /* Larger log on mobile */
+        max-width: 200px;
+    }
+}

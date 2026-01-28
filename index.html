@@ -19,6 +19,7 @@
   Contains meta information, stylesheets, and non-visible elements.
   Defines metadata for search engines, social media, and browser behavior.
 -->
+
 <head>
   <meta name="google-site-verification" content="" />
 
@@ -26,53 +27,60 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <!-- SEO and Browser Settings -->
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#000" />
-  
+
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Abhinav Bathula | Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions." />
+  <meta name="description"
+    content="Abhinav Bathula | Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions." />
   <meta name="author" content="Abhinav Bathula" />
-  
+
   <!-- Keywords for Search Engines -->
-  <meta name="keywords" content="abhinav bathula, abhinav bathula portfolio, oracle cloud consultant, erp consultant, oracle cloud erp, abhinav bathula hyderabad, oracle technical consultant" />
-  
+  <meta name="keywords"
+    content="abhinav bathula, abhinav bathula portfolio, oracle cloud consultant, erp consultant, oracle cloud erp, abhinav bathula hyderabad, oracle technical consultant" />
+
   <!-- Open Graph / Social Media Meta Tags -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://abhinavbathula.site" />
   <meta property="og:title" content="Abhinav Bathula | Oracle Cloud Technical Consultant" />
-  <meta property="og:description" content="Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions, Financials, and SCM modules." />
+  <meta property="og:description"
+    content="Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions, Financials, and SCM modules." />
   <meta property="og:image" content="https://abhinavbathula.site/src/png/Preview-card-min.png" />
-  
+
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@YourTwitterHandle" />
   <meta name="twitter:title" content="Abhinav Bathula | Oracle Cloud Technical Consultant" />
-  <meta name="twitter:description" content="Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions." />
+  <meta name="twitter:description"
+    content="Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations. Specializing in Oracle Cloud solutions." />
   <meta name="twitter:image" content="https://abhinav25b.github.io/src/png/Preview-card-min.png" />
-  
+
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
-  
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DNPR2F93CQ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-DNPR2F93CQ');
   </script>
   <title>Abhinav Bathula | Oracle Cloud Technical Consultant</title>
-  
+
   <!-- External CSS Libraries -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css" />
-  
+  <link rel="stylesheet" href="oracle-overrides.css" />
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps&display=swap"
+    rel="stylesheet">
 
   <!-- 
     ===================================
@@ -95,11 +103,12 @@
   </audio>
   <!-- Preloader: Shows while the page is loading -->
   <div id="preloader"></div>
-  
+
   <!-- NoScript Fallback -->
   <noscript>
     <div class="noscript-warning">
-      <p>This website requires JavaScript to function properly. Please enable JavaScript in your browser for the best experience.</p>
+      <p>This website requires JavaScript to function properly. Please enable JavaScript in your browser for the best
+        experience.</p>
     </div>
   </noscript>
 
@@ -120,12 +129,12 @@
     <div class="navbar" id="navbar">
       <!-- Greeting Text -->
       <div class="hey">Hey!</div>
-      
+
       <!-- Logo Container -->
       <div class="logo" tabindex="0" aria-label="Abhinav Bathula logo">
         <div class="logo-top">
           <!-- Profile Avatar/Logo -->
-          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar" />
         </div>
       </div>
       <!-- Navigation Tabs -->
@@ -158,7 +167,7 @@
               &#60;/Projects&#62;
             </a>
           </li>
-          
+
           <!-- Certifications Tab -->
           <li class="certifications" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="900">
             <a href="#certifications" aria-label="certifications menu button">
@@ -206,21 +215,21 @@
             &#60;/AboutMe&#62;
           </a>
         </li>
-        
+
         <!-- Mobile Skills Tab -->
         <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
           <a href="#skills" tabindex="0" aria-label="skills menu button">
             &#60;/Skills&#62;
           </a>
         </li>
-        
+
         <!-- Mobile Projects Tab -->
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
           <a href="#projects" tabindex="0" aria-label="projects menu button">
             &#60;/Projects&#62;
           </a>
         </li>
-        
+
         <!-- Mobile Certifications Tab -->
         <li id="certifications-mobile-tab" class="mobile-navbar-tabs-li certifications" onclick="hidemenubyli()">
           <a href="#certifications" tabindex="0" aria-label="certifications menu button">
@@ -328,7 +337,8 @@
           Oracle Cloud Technical Consultant with 4+ years of experience in end-to-end ERP implementations.
           <br />
           <br />
-          I specialize in Oracle Cloud solutions, with expertise in Financials, SCM, BIP reports and custom integrations.
+          I specialize in Oracle Cloud solutions, with expertise in Financials, SCM, BIP reports and custom
+          integrations.
           I'm passionate about creating efficient, scalable solutions that drive business transformation.
         </p>
         <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
@@ -357,7 +367,7 @@
           </div>
         </div>
       </div>
-     
+
     </section>
     <!-- 
       ===================================
@@ -382,21 +392,28 @@
           <div class="about-info">
             <!-- First Paragraph -->
             <p tabindex="0">
-              Hi! I'm Abhinav, an Oracle Cloud Technical Consultant with a passion for modernizing enterprise systems. I love helping businesses transition from legacy platforms to scalable, cloud-native solutions that drive growth and operational agility.
+              Hi! I'm Abhinav, an Oracle Cloud Technical Consultant with a passion for modernizing enterprise systems. I
+              love helping businesses transition from legacy platforms to scalable, cloud-native solutions that drive
+              growth and operational agility.
             </p>
             <br />
-            
+
             <!-- Second Paragraph -->
             <p tabindex="0">
-              With over four years of experience, my work centers on end-to-end Oracle Cloud ERP implementations across Financials and SCM modules. I specialize in designing technical solutions, developing custom BI Publisher and OTBI reports, and executing complex data migrations using tools like FBDI and SQL. For me, it's about transforming complex business requirements into high-performance, tailored solutions that empower organizations.
+              With over four years of experience, my work centers on end-to-end Oracle Cloud ERP implementations across
+              Financials and SCM modules. I specialize in designing technical solutions, developing custom BI Publisher
+              and OTBI reports, and executing complex data migrations using tools like FBDI and SQL. For me, it's about
+              transforming complex business requirements into high-performance, tailored solutions that empower
+              organizations.
             </p>
             <br />
-            
+
             <!-- Third Paragraph -->
             <p tabindex="0">
-              When I'm not deep in an implementation, you'll find me exploring ways to tune query performance and discovering new methods to solve challenges within the Oracle Cloud ecosystem.
+              When I'm not deep in an implementation, you'll find me exploring ways to tune query performance and
+              discovering new methods to solve challenges within the Oracle Cloud ecosystem.
             </p>
-             <!-- Resume Download Button -->
+            <!-- Resume Download Button -->
             <!-- This button triggers the openURL() function to download the resume PDF -->
             <button class="resume-btn" id="resume-btn" onclick="openURL()" aria-label="Download Resume">
               <!-- Download Icon -->
@@ -415,12 +432,8 @@
           <!-- Profile Picture -->
           <div class="dp" data-aos="fade-up">
             <!-- Professional profile photo with accessibility attributes -->
-            <img 
-              src="src/webp/passport pic.webp" 
-              alt="Abhinav Bathula" 
-              tabindex="0" 
-              aria-label="Professional photo of Abhinav Bathula"
-              loading="lazy" />
+            <img src="src/webp/passport pic.webp" alt="Abhinav Bathula" tabindex="0"
+              aria-label="Professional photo of Abhinav Bathula" loading="lazy" />
           </div>
         </div>
       </div>
@@ -455,10 +468,7 @@
             <!-- Individual Skill Item -->
             <li class="tech-stack-box" data-aos="fade-up">
               <!-- Skill Logo -->
-              <img 
-                src="./src/png/62bc7b13071dec17849af324.png" 
-                alt="Oracle Database" 
-                class="tech-stack-logo" 
+              <img src="./src/png/62bc7b13071dec17849af324.png" alt="Oracle Database" class="tech-stack-logo"
                 loading="lazy" />
               <!-- Tooltip that appears on hover -->
               <span class="tooltip" role="tooltip">Oracle Database</span>
@@ -516,12 +526,14 @@
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/toad-for-oracle-software-removebg-preview.png" alt="TOAD skill" class="tech-stack-logo needtobeinvert" />
+              <img src="./src/png/toad-for-oracle-software-removebg-preview.png" alt="TOAD skill"
+                class="tech-stack-logo needtobeinvert" />
               <span class="tooltip">TOAD</span>
             </li>
 
             <li class="tech-stack-box" data-aos="fade-up">
-              <img src="./src/png/sql_developer_datascientest-removebg-preview.png" alt="sql skill" class="tech-stack-logo" />
+              <img src="./src/png/sql_developer_datascientest-removebg-preview.png" alt="sql skill"
+                class="tech-stack-logo" />
               <span class="tooltip">SQL Developer</span>
             </li>
 
@@ -551,30 +563,43 @@
         </div>
         <!-- Projects Grid -->
         <div class="project-boxes-div">
+          <!-- Project: Oracle (HID Global) -->
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2 oracle-custom-layout">
+              <div class="info-div oracle-info-div">
+                <article class="ProjectHeading">
+                  <span class="oracle-title">Senior Cloud Consultant</span>
+                </article>
+              </div>
+              <div class="oracle-separator">
+                @
+              </div>
+              <div class="image-div oracle-image-div">
+                <img src="src/png/62bc7b13071dec17849af324.png" alt="Oracle Logo" loading="lazy"
+                  class="oracle-logo-img" />
+              </div>
+            </div>
+          </div>
           <!-- Project 1: Accenture -->
           <div data-aos="fade-up" class="project-box-wrapper">
             <div class="project-box project-box2" id="project-box2">
               <!-- Project Information -->
               <div class="info-div">
                 <!-- Company Logo -->
-                <img 
-                  src="src/webp/123134.webp" 
-                  alt="Accenture logo" 
-                  class="faviconforProject" 
-                  loading="lazy" />
+                <img src="src/webp/123134.webp" alt="Accenture logo" class="faviconforProject" loading="lazy" />
                 <!-- Project/Position Title -->
                 <article class="ProjectHeading">Accenture<br>Senior Analyst</article>
                 <!-- Project/Position Description -->
                 <p class="ProjectDescription">
-                  Oracle Cloud ERP Senior Analyst at Accenture, specializing in Oracle Cloud implementation, configuration, and support. Expert in Oracle Financials and Supply Chain modules. Delivering end-to-end Oracle solutions, system integrations, and process optimizations to drive digital transformation and operational excellence for global enterprises.
+                  Oracle Cloud ERP Senior Analyst at Accenture, specializing in Oracle Cloud implementation,
+                  configuration, and support. Expert in Oracle Financials and Supply Chain modules. Delivering
+                  end-to-end Oracle solutions, system integrations, and process optimizations to drive digital
+                  transformation and operational excellence for global enterprises.
                 </p>
               </div>
               <!-- Project Image/Preview -->
               <div class="image-div">
-                <img 
-                  src="src/webp/wqe.webp" 
-                  alt="Project preview image" 
-                  loading="lazy" />
+                <img src="src/webp/wqe.webp" alt="Project preview image" loading="lazy" />
               </div>
             </div>
           </div>
@@ -586,14 +611,10 @@
               <!-- Project Information -->
               <div class="info-div">
                 <!-- Company Logo -->
-                <img 
-                  src="src/ico/infy.png" 
-                  alt="Infosys logo" 
-                  class="faviconforProject" 
-                  loading="lazy" />
+                <img src="src/ico/infy.png" alt="Infosys logo" class="faviconforProject" loading="lazy" />
                 <!-- Project/Position Title -->
                 <article class="ProjectHeading">Infosys<br>Senior Systems Engineer</article>
-                
+
                 <!-- Project/Position Description -->
                 <p class="ProjectDescription">
                   - Led Oracle Cloud ERP implementations and optimizations<br>
@@ -636,9 +657,8 @@
             <div class="project-box project-box2">
               <!-- Certification Image (moved above text) -->
               <div class="image-div">
-                <img 
-                  src="src/png/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.png" 
-                  alt="Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1 certificate image" 
+                <img src="src/png/Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1.png"
+                  alt="Oracle Fusion AI Agent Studio Certified Foundations Associate - Rel 1 certificate image"
                   loading="lazy" />
               </div>
               <!-- Certification Information -->
@@ -655,9 +675,12 @@
                   building reliable, production-ready Oracle Cloud automations.
                 </p>
                 <div class="project-buttons">
-                  <a class="cta" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=AD8CB93E1F77B0FA28C53FF17A77A2EFAF47478AAC01D9931A91871B5F945075" target="_blank" rel="noopener noreferrer" aria-label="Show Oracle credential">
+                  <a class="cta"
+                    href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=AD8CB93E1F77B0FA28C53FF17A77A2EFAF47478AAC01D9931A91871B5F945075"
+                    target="_blank" rel="noopener noreferrer" aria-label="Show Oracle credential">
                     <span>Show Credential</span>
-                    <svg width="20" height="20" viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <svg width="20" height="20" viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true" focusable="false">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8,1 12,5 8,9"></polyline>
                     </svg>
@@ -672,9 +695,8 @@
             <div class="project-box project-box2">
               <!-- Certification Image on top -->
               <div class="image-div">
-                <img 
-                  src="src/png/Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1.png" 
-                  alt="Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1 certificate image" 
+                <img src="src/png/Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1.png"
+                  alt="Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1 certificate image"
                   loading="lazy" />
               </div>
               <!-- Certification Information below -->
@@ -683,16 +705,20 @@
                   Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1
                 </article>
                 <p class="ProjectDescription">
-                  Demonstrates core understanding of Supply Chain Management processes across Oracle Fusion Cloud Applications.
+                  Demonstrates core understanding of Supply Chain Management processes across Oracle Fusion Cloud
+                  Applications.
                 </p>
                 <p class="ProjectDescription">
                   Highlights practical knowledge of end‑to‑end SCM flows, configurations and best practices — useful for
                   implementing, optimizing and supporting Fusion SCM solutions.
                 </p>
                 <div class="project-buttons">
-                  <a class="cta" href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=FAA32308AF5050A60FA9B8E3AE4F3B66BC9B1761C08B016B24E4E20C6AAF5BE9" target="_blank" rel="noopener noreferrer" aria-label="Show Oracle credential">
+                  <a class="cta"
+                    href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=FAA32308AF5050A60FA9B8E3AE4F3B66BC9B1761C08B016B24E4E20C6AAF5BE9"
+                    target="_blank" rel="noopener noreferrer" aria-label="Show Oracle credential">
                     <span>Show Credential</span>
-                    <svg width="20" height="20" viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <svg width="20" height="20" viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true" focusable="false">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8,1 12,5 8,9"></polyline>
                     </svg>
@@ -716,7 +742,9 @@
       <div class="footercontainer">
         <div class="two-words">
           <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
-            "I'm ready to face any challenges that might be foolish enough to face me." — Dwight Schrute
+            "I'm ready to face any challenges that might be foolish enough to face me."
+            <br />
+            <span style="display: block; margin-top: 5px;">— Dwight Schrute</span>
           </article>
         </div>
         <div class="social-media-container">
@@ -724,8 +752,7 @@
             <article>GetinTouch();</article>
           </div>
           <div class="logos">
-            <a href="https://www.linkedin.com/in/abhinav-bathula/" target="_blank"
-              aria-label="Connect on LinkedIn">
+            <a href="https://www.linkedin.com/in/abhinav-bathula/" target="_blank" aria-label="Connect on LinkedIn">
               <svg class="SocialHandle" viewBox="0 0 448 512" width="24" height="24">
                 <path
                   d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
@@ -741,7 +768,7 @@
           </div>
         </div>
         <div class="footer-avatar-container">
-          <img src="src/png/footer-avatar-vinod.png" alt="" class="footer-avatar-img" id="footer-wala-avatar"/>
+          <img src="src/png/footer-avatar-vinod.png" alt="" class="footer-avatar-img" id="footer-wala-avatar" />
           <div class="footer-avatar-face">
             <div class="footer-avatar-eye footer-left-eye">
               <div class="footer-pupil"></div>
@@ -753,7 +780,7 @@
         </div>
         <div class="footer-bottom">
           <article>
-              Built by Abhinav Bathula &copy; <span id="currentYear"></span> | Design inspired by Vinod Jangid
+            Built by Abhinav Bathula &copy; <span id="currentYear"></span> | Design inspired by Vinod Jangid
           </article>
         </div>
       </div>
@@ -762,17 +789,17 @@
   <!-- JavaScript Libraries -->
   <script src="main.js" defer></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  
+
   <!-- Initialize AOS and set current year -->
   <script>
     // Initialize AOS (Animate On Scroll) with defaults like the reference
     AOS.init();
-    
+
     // Update copyright year dynamically
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       document.getElementById('currentYear').textContent = new Date().getFullYear();
     });
-    
+
     // Function to open resume in new tab
     function openURL() {
       window.open("src/pdf/Abhinav_B_Resume_2025.pdf", "_blank");
@@ -781,35 +808,35 @@
 
   <!-- Custom Cursor Script -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const cursorInner = document.getElementById("cursor-inner");
       const cursorOuter = document.getElementById("cursor-outer");
       const interactiveElements = document.querySelectorAll("a, button, [tabindex], label, [role='button']");
-      
+
       // Only initialize custom cursor if elements exist
       if (cursorInner && cursorOuter) {
         // Update cursor position on mouse move
         document.addEventListener("mousemove", (e) => {
           const { clientX: posX, clientY: posY } = e;
-          
+
           // Update cursor position using left/top to preserve centering transform
           cursorInner.style.left = `${posX}px`;
           cursorInner.style.top = `${posY}px`;
-          
+
           // Animate outer cursor with smooth transition
           cursorOuter.animate(
             { left: `${posX}px`, top: `${posY}px` },
             { duration: 500, fill: "forwards" }
           );
         });
-        
+
         // Add hover effects for interactive elements
         interactiveElements.forEach(element => {
           element.addEventListener('mouseenter', () => {
             cursorInner.classList.add('hover');
             cursorOuter.classList.add('hover');
           });
-          
+
           element.addEventListener('mouseleave', () => {
             cursorInner.classList.remove('hover');
             cursorOuter.classList.remove('hover');
@@ -818,6 +845,6 @@
       }
     });
   </script>
- </body>
+</body>
 
 </html>

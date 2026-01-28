@@ -4,7 +4,7 @@
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/abhinavbathula/abhinavbathula.github.io)
 [![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://abhinavbathula.github.io/)
 [![Author](https://img.shields.io/badge/Author-Abhinav%20Bathula-purple.svg)](https://www.linkedin.com/in/abhinav-bathula/)
-[![Latest Release](https://img.shields.io/badge/Latest%20Release-Sep%202025-yellow.svg)](https://github.com/abhinavbathula/abhinavbathula.github.io)
+[![Latest Release](https://img.shields.io/badge/Latest%20Release-v1__2026-yellow.svg)](https://github.com/abhinavbathula/abhinavbathula.github.io/releases/tag/v1_2026)
 <a href="https://github.com/abhinavbathula/abhinavbathula.github.io/blob/main/LICENSE"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
 
 <img width="100%" alt="Portfolio Screenshot" src="https://abhinav25b.github.io/src/png/Preview-card-min.png">
