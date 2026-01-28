@@ -20,3 +20,4 @@
 
 ### Fixed (Hotfix)
 - **Resume Button**: Corrected the file path in `openURL()` function to point to the newly uploaded `Abhinav_B_2025_Resume.pdf`, resolving the broken "Resume" button issue.
+- **Back-to-Top Button**: Adjusted the mobile positioning (`bottom: 60px`) to prevent overlap with footer copyright text.
