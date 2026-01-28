@@ -17,3 +17,6 @@
 ### Fixed
 - **Project Grid**: Restored missing `project-box-wrapper` div that was breaking the grid alignment for project cards.
 - **Logo Display**: Removed the red bar from the Oracle logo image to focus purely on the brand text/symbol usage.
+
+### Fixed (Hotfix)
+- **Resume Button**: Corrected the file path in `openURL()` function to point to the newly uploaded `Abhinav_B_2025_Resume.pdf`, resolving the broken "Resume" button issue.
