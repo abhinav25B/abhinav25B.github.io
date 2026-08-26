@@ -1,5 +1,19 @@
 # Changelog
 
+## [2026-08-26] - 26 Aug 2026 Changes
+
+### Added
+- **Skills**: Added official logo cards for **Google Antigravity** (`src/png/google-antigravity.png`) and **Codex** (`src/png/codex-logo.png`) to the Tech Stack grid.
+- **Resume**: Added latest 2026 resume (`src/pdf/Abhinav_B_2026_Resume.pdf`).
+
+### Changed
+- **Experience Alignment**: Audited and updated total experience duration to **5+ years** across all pages, SEO metadata (`description`, `og:description`, `twitter:description`), hero intro paragraph (`#info-para`), and About Me section narrative.
+- **Hero Capabilities**: Added FBDI data conversions (`Financials, SCM, BIP reports, FBDI data conversions, and custom integrations`) in the hero summary.
+- **Oracle Project Card**: Standardized the Oracle card into a unified project box layout with small icon badge (`faviconforProject`) and complete resume-based description covering end-to-end data migration (OSSI).
+- **Accenture & Infosys Cards**: Removed client company preview logos (Metco and Cummins) and replaced rigid fixed height sizing with clean, content-fitted dynamic heights and responsive padding.
+- **Resume Button**: Updated `openURL()` download trigger to point to `src/pdf/Abhinav_B_2026_Resume.pdf`.
+- **Footer Quote**: Synchronized Dwight Schrute quote (*"I'm ready to face any challenge that might be foolish enough to face me."*).
+
 ## [v1_2026] - 2026-01-28
 
 ### Added

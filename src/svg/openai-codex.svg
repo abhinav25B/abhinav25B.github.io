@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="codexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10A37F" />
+      <stop offset="50%" stop-color="#00D290" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <linearGradient id="codexGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10A37F" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00D290" stop-opacity="0.1" />
+    </linearGradient>
+    <filter id="codexBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Tech Halo -->
+  <circle cx="100" cy="74" r="52" fill="url(#codexGlow)" />
+
+  <!-- OpenAI Spiral Structure for Codex -->
+  <g transform="translate(100, 74) scale(0.9)">
+    <!-- Arm 1 -->
+    <path d="M 0,-42 C 6,-42 12,-38 15,-33 L 34,0 C 37,5 37,11 34,16 L 24,33 C 21,38 15,42 9,42 L -10,42 C -13,42 -16,40 -18,37 L -18,25 C -18,22 -16,20 -13,20 L 5,20 C 8,20 11,18 13,15 L 20,3 C 22,0 22,-4 20,-7 L 9,-26 C 7,-29 4,-31 0,-31 L -22,-31 C -25,-31 -28,-29 -30,-26 L -35,-17 L -45,-23 L -39,-33 C -36,-38 -30,-42 -24,-42 Z" fill="url(#codexGrad)" />
+    
+    <!-- Arm 2 (Rotated 60) -->
+    <g transform="rotate(60)">
+      <path d="M 0,-42 C 6,-42 12,-38 15,-33 L 34,0 C 37,5 37,11 34,16 L 24,33 C 21,38 15,42 9,42 L -10,42 C -13,42 -16,40 -18,37 L -18,25 C -18,22 -16,20 -13,20 L 5,20 C 8,20 11,18 13,15 L 20,3 C 22,0 22,-4 20,-7 L 9,-26 C 7,-29 4,-31 0,-31 L -22,-31 C -25,-31 -28,-29 -30,-26 L -35,-17 L -45,-23 L -39,-33 C -36,-38 -30,-42 -24,-42 Z" fill="url(#codexGrad)" />
+    </g>
+
+    <!-- Arm 3 (Rotated 120) -->
+    <g transform="rotate(120)">
+      <path d="M 0,-42 C 6,-42 12,-38 15,-33 L 34,0 C 37,5 37,11 34,16 L 24,33 C 21,38 15,42 9,42 L -10,42 C -13,42 -16,40 -18,37 L -18,25 C -18,22 -16,20 -13,20 L 5,20 C 8,20 11,18 13,15 L 20,3 C 22,0 22,-4 20,-7 L 9,-26 C 7,-29 4,-31 0,-31 L -22,-31 C -25,-31 -28,-29 -30,-26 L -35,-17 L -45,-23 L -39,-33 C -36,-38 -30,-42 -24,-42 Z" fill="url(#codexGrad)" />
+    </g>
+
+    <!-- Arm 4 (Rotated 180) -->
+    <g transform="rotate(180)">
+      <path d="M 0,-42 C 6,-42 12,-38 15,-33 L 34,0 C 37,5 37,11 34,16 L 24,33 C 21,38 15,42 9,42 L -10,42 C -13,42 -16,40 -18,37 L -18,25 C -18,22 -16,20 -13,20 L 5,20 C 8,20 11,18 13,15 L 20,3 C 22,0 22,-4 20,-7 L 9,-26 C 7,-29 4,-31 0,-31 L -22,-31 C -25,-31 -28,-29 -30,-26 L -35,-17 L -45,-23 L -39,-33 C -36,-38 -30,-42 -24,-42 Z" fill="url(#codexGrad)" />
+    </g>
+
+    <!-- Arm 5 (Rotated 240) -->
+    <g transform="rotate(240)">
+      <path d="M 0,-42 C 6,-42 12,-38 15,-33 L 34,0 C 37,5 37,11 34,16 L 24,33 C 21,38 15,42 9,42 L -10,42 C -13,42 -16,40 -18,37 L -18,25 C -18,22 -16,20 -13,20 L 5,20 C 8,20 11,18 13,15 L 20,3 C 22,0 22,-4 20,-7 L 9,-26 C 7,-29 4,-31 0,-31 L -22,-31 C -25,-31 -28,-29 -30,-26 L -35,-17 L -45,-23 L -39,-33 C -36,-38 -30,-42 -24,-42 Z" fill="url(#codexGrad)" />
+    </g>
+
+    <!-- Arm 6 (Rotated 300) -->
+    <g transform="rotate(300)">
+      <path d="M 0,-42 C 6,-42 12,-38 15,-33 L 34,0 C 37,5 37,11 34,16 L 24,33 C 21,38 15,42 9,42 L -10,42 C -13,42 -16,40 -18,37 L -18,25 C -18,22 -16,20 -13,20 L 5,20 C 8,20 11,18 13,15 L 20,3 C 22,0 22,-4 20,-7 L 9,-26 C 7,-29 4,-31 0,-31 L -22,-31 C -25,-31 -28,-29 -30,-26 L -35,-17 L -45,-23 L -39,-33 C -36,-38 -30,-42 -24,-42 Z" fill="url(#codexGrad)" />
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <text x="100" y="156" font-family="'Fira Code', 'Orbitron', monospace, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#FFFFFF" letter-spacing="2.5">
+    CODEX
+  </text>
+</svg>

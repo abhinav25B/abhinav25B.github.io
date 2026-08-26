@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="googleBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8AB4F8" />
+      <stop offset="100%" stop-color="#4285F4" />
+    </linearGradient>
+    <linearGradient id="googleRedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7566" />
+      <stop offset="100%" stop-color="#EA4335" />
+    </linearGradient>
+    <linearGradient id="googleYellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE293" />
+      <stop offset="100%" stop-color="#FBBC04" />
+    </linearGradient>
+    <linearGradient id="googleGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#81C995" />
+      <stop offset="100%" stop-color="#34A853" />
+    </linearGradient>
+    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4285F4" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#8AB4F8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#34A853" stop-opacity="0.25" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Orbital Gravity Rings -->
+  <ellipse cx="100" cy="70" rx="56" ry="22" fill="none" stroke="url(#orbitGrad)" stroke-width="2.5" stroke-dasharray="6,4" transform="rotate(-18 100 70)" />
+  <ellipse cx="100" cy="70" rx="56" ry="22" fill="none" stroke="url(#orbitGrad)" stroke-width="2.5" transform="rotate(28 100 70)" />
+
+  <!-- Levitating Core (Antigravity 'A' + Quantum Sphere) -->
+  <!-- Blue segment (Top-Left) -->
+  <path d="M 100 30 C 114 30, 126 38, 131 50 L 115 55 C 112 49, 107 45, 100 45 C 88.5 45, 79 54.5, 79 66 C 79 70, 80.5 74, 83 77 L 69 89 C 64.5 82.5, 62 74.5, 62 66 C 62 46.1, 79 30, 100 30 Z" fill="url(#googleBlueGrad)" />
+  
+  <!-- Red segment (Top-Right) -->
+  <path d="M 131 50 C 136 60, 138 70, 136 80 L 119 76 C 120 71, 119 65, 116 61 L 131 50 Z" fill="url(#googleRedGrad)" />
+  
+  <!-- Yellow segment (Bottom-Right) -->
+  <path d="M 136 80 C 133 95, 122 106, 107 109 L 103 92 C 111 90, 116 84, 118 76 L 136 80 Z" fill="url(#googleYellowGrad)" />
+  
+  <!-- Green segment (Bottom-Left) -->
+  <path d="M 107 109 C 92 112, 76 104, 69 89 L 83 77 C 88 86, 97 90, 103 92 L 107 109 Z" fill="url(#googleGreenGrad)" />
+
+  <!-- Levitating Anti-Gravity Particles / Sparkles -->
+  <path d="M 100 50 L 103 64 L 117 67 L 103 70 L 100 84 L 97 70 L 83 67 L 97 64 Z" fill="#FFFFFF" filter="url(#glow)" />
+  <circle cx="58" cy="52" r="2.5" fill="#8AB4F8" />
+  <circle cx="144" cy="48" r="2" fill="#FF7566" />
+  <circle cx="140" cy="96" r="2.8" fill="#FDE293" />
+  <circle cx="56" cy="86" r="2.2" fill="#81C995" />
+
+  <!-- Typography -->
+  <!-- Google text -->
+  <text x="100" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">
+    <tspan fill="#8AB4F8">G</tspan><tspan fill="#FF7566">o</tspan><tspan fill="#FDE293">o</tspan><tspan fill="#8AB4F8">g</tspan><tspan fill="#81C995">l</tspan><tspan fill="#FF7566">e</tspan>
+  </text>
+  <!-- Antigravity text -->
+  <text x="100" y="166" font-family="'Orbitron', 'Fira Code', -apple-system, sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#E8EAED" letter-spacing="1.5">
+    ANTIGRAVITY
+  </text>
+</svg>

@@ -1,12 +1,12 @@
 
 /* Oracle Project Card Custom Layout */
-.oracle-custom-layout {
+#projects .oracle-custom-layout {
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
 
-.oracle-info-div {
+#projects .oracle-info-div {
     width: auto;
     padding: 0;
     align-items: flex-end;
@@ -28,7 +28,7 @@
     padding-bottom: 5px;
 }
 
-.oracle-image-div {
+#projects .oracle-image-div {
     padding: 0;
     display: flex;
     align-items: center;
@@ -47,15 +47,15 @@
 
 /* Mobile Responsive Adjustments for Oracle Card */
 @media screen and (max-width: 768px) {
-    .oracle-custom-layout {
+    #projects .oracle-custom-layout {
         flex-direction: column !important;
-        padding: 30px 10px;
-        gap: 20px;
+        padding: 25px 15px !important;
+        gap: 15px;
         height: auto !important; /* Allow height to grow */
     }
 
-    .oracle-info-div {
-        width: 100%;
+    #projects .oracle-info-div {
+        width: 100% !important;
         align-items: center;
         text-align: center;
         flex: 0 0 auto;
@@ -67,17 +67,17 @@
 
     .oracle-separator {
         font-size: 2em;
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
-    .oracle-image-div {
-        width: 100%;
+    #projects .oracle-image-div {
+        width: 100% !important;
         justify-content: center;
         flex: 0 0 auto;
     }
 
     .oracle-logo-img {
-        width: 80%; /* Larger log on mobile */
+        width: 80%; /* Larger logo on mobile */
         max-width: 200px;
     }
 }
