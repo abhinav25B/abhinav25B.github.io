@@ -72,8 +72,79 @@
 
   <!-- External CSS Libraries -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="style.css?v=20260826" />
-  <link rel="stylesheet" href="oracle-overrides.css?v=20260826" />
+  <link rel="stylesheet" href="style.css?v=20260826_v3" />
+
+  <!-- Embedded Project Styles to Guarantee Correct Production Layout -->
+  <style>
+    #projects .project-box {
+      width: 100%;
+      height: auto !important;
+      min-height: unset !important;
+      padding: 35px 40px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: flex-start !important;
+      box-sizing: border-box !important;
+    }
+
+    #projects .info-div {
+      width: 100% !important;
+      height: auto !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      justify-content: flex-start !important;
+      gap: 15px !important;
+      padding: 0 !important;
+      box-sizing: border-box !important;
+    }
+
+    #projects .faviconforProject {
+      width: 36px !important;
+      height: 36px !important;
+      object-fit: contain !important;
+      border-radius: 6px !important;
+      display: block !important;
+    }
+
+    #projects .ProjectHeading {
+      color: var(--color-white, #fff);
+      font-size: 2.6rem !important;
+      font-weight: 700 !important;
+      line-height: 1.3 !important;
+      margin: 0 !important;
+    }
+
+    #projects .ProjectDescription {
+      color: gray;
+      font-size: 1.6rem !important;
+      font-weight: 400 !important;
+      line-height: 1.6 !important;
+      margin: 0 !important;
+    }
+
+    @media screen and (max-width: 768px) {
+      #projects .project-box {
+        padding: 25px 20px !important;
+      }
+      #projects .ProjectHeading {
+        font-size: 2.2rem !important;
+      }
+      #projects .ProjectDescription {
+        font-size: 1.4rem !important;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      #projects .project-box {
+        padding: 20px 15px !important;
+      }
+      #projects .ProjectHeading {
+        font-size: 2.0rem !important;
+      }
+    }
+  </style>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
